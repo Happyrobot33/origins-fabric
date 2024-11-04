@@ -77,8 +77,11 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modApi "io.github.apace100:apoli:${project.apoli_version}"
-	include "io.github.apace100:apoli:${project.apoli_version}"
+	// modApi "io.github.apace100:apoli:${project.apoli_version}"
+	// include "io.github.apace100:apoli:${project.apoli_version}"
+
+	modApi "com.github.Happyrobot33:apoli:1.21-hotfix-SNAPSHOT"
+	include "com.github.Happyrobot33:apoli:1.21-hotfix-SNAPSHOT"
 
 	modApi("me.shedaniel.cloth:cloth-config-fabric:${project.clothconfig_version}") {
 		exclude(group: "net.fabricmc.fabric-api")
